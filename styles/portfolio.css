@@ -5,7 +5,6 @@ body {
 
     margin: 0px;
     margin-top: 0px;
-    background: #EFEFEF;
     padding: 0px;
 }
 
@@ -45,29 +44,127 @@ header {
 
 }
 
-.banner-description{
-font-weight: 400;
-font-size: 16px;
-text-align: right;
-color: #444343;
-margin-top: 0px;
-margin-bottom: 20px;
-padding-left: 45px;
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #444343;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-left: 45px;
 
 }
 
-.btn-primary{
-margin-top: 10px;
-padding: 16px 30px;
-background: #F15B22;
-border-radius: 5px;
-border: 0;
+.btn-primary {
+    margin-top: 10px;
+    padding: 16px 30px;
+    background: #F15B22;
+    border-radius: 5px;
+    border: 0;
 
-font-weight: 600;
-font-size: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+/* main section related styles */
+
+section {
+
+    display: flex;
+    height: 600px;
+    background: #FFFFFF;
+    margin: 100px 130px;
+    justify-content: center;
+    gap: 120px;
+
+}
+
+.failure-content {
+    max-width: 50%;
+    justify-content: center;
+    text-align: left;
+
+
+}
+
+.failure-img {
+    width: 420px;
+    height: 520px;
+}
+
+.failure-info {
+    padding: 100px 0px;
+}
+
+.section-title {
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    max-width: 400px;
+
+
+}
+
+.failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    max-width: 400px;
+
+}
+
+.failure-list {
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    display: block;
+    list-style: none;
+
+}
+
+.my-plan {
+    padding-left: 400px;
+    margin-top: -50px;
+
+
+}
+
+.my-plan-details {
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+}
+
+.section-my-plan {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.my-plan-item h3 {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+}
+
+.my-plan-item h5 {
+    margin-top: 0px;
+font-weight: 500;
+font-size: 25px;
 text-align: center;
-
-color: #FFFFFF;
+color: #737272;
 
 
 }
