@@ -79,14 +79,14 @@ section {
     height: 600px;
     background: #FFFFFF;
     margin: 100px 130px;
-    justify-content: center;
-    gap: 120px;
+    justify-content: space-around;
+
 
 }
 
 .failure-content {
     max-width: 50%;
-    justify-content: center;
+    justify-content: space-around;
     text-align: left;
 
 
@@ -139,7 +139,7 @@ section {
 .my-plan-details {
     margin: 80px auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 70px;
     text-align: center;
     padding-left: 30px;
@@ -147,7 +147,7 @@ section {
 
 .section-my-plan {
     display: block;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     width: 1150px;
     height: 350px;
@@ -164,15 +164,15 @@ section {
 
 .my-plan-item h5 {
     margin-top: 0px;
-font-weight: 500;
-font-size: 25px;
-text-align: center;
-color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
 
 
 }
 
-.call-now-section{
+.call-now-section {
     width: 1150px;
     height: 350px;
     background-image: url("../images/watch.png");
@@ -181,21 +181,21 @@ color: #737272;
     background-position: center;
 }
 
-.gradient-back{
+.gradient-back {
     background-image: url("../images/gradient2.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     width: 1150px;
     height: 350px;
 }
 
-.call-now-content{
+.call-now-content {
     margin-top: 0px;
     padding: 50px 100px;
 }
 
-.call-now-content h2{
+.call-now-content h2 {
     font-weight: 700;
     font-size: 35px;
     text-align: left;
@@ -203,7 +203,7 @@ color: #737272;
     max-width: 400px;
 }
 
-.btn-secondary{
+.btn-secondary {
     margin-top: 10px;
     padding: 16px 30px;
     background: #FFFFFF;
@@ -215,4 +215,84 @@ color: #737272;
     text-align: center;
 
     color: #F15B22;
+}
+
+
+/* footer section related styles */
+
+footer {
+    width: auto;
+    height: 400px;
+    background: #151414;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 100px;
+    margin-top: 150px;
+
+}
+
+.footer-column {
+    width: 50%;
+    display: block;
+    justify-content: space-between;
+    padding: 50px 100px;
+
+}
+
+.footer-column h2 {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: left;
+    color: #FFFFFF;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.footer-column p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    color: #FFFFFF;
+
+}
+
+.footer-column li {
+    margin-bottom: 20px;
+}
+
+.footer-icon {
+    margin-top: 30px;
+    gap: 24px;
+    display: flex;
+}
+
+.subscribe-title {
+    font-weight: 500;
+    font-size: 28px;
+    text-align: left;
+    color: #FFFFFF;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.footer-column input {
+    padding: 16px;
+    width: 60%;
+    margin-bottom: 12px;
+    background: transparent;
+    /* added */
+    border: 1px solid #fafafa;
+    /* added */
+    border-radius: 5px;
+    color: #FFFFFF;
+
+
+
 }
