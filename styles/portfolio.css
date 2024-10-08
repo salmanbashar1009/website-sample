@@ -140,8 +140,9 @@ section {
     margin: 80px auto;
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 70px;
     text-align: center;
+    padding-left: 30px;
 }
 
 .section-my-plan {
@@ -169,4 +170,49 @@ text-align: center;
 color: #737272;
 
 
+}
+
+.call-now-section{
+    width: 1150px;
+    height: 350px;
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gradient-back{
+    background-image: url("../images/gradient2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    width: 1150px;
+    height: 350px;
+}
+
+.call-now-content{
+    margin-top: 0px;
+    padding: 50px 100px;
+}
+
+.call-now-content h2{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: left;
+    color: #FFFFFF;
+    max-width: 400px;
+}
+
+.btn-secondary{
+    margin-top: 10px;
+    padding: 16px 30px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+
+    color: #F15B22;
 }
