@@ -140,7 +140,7 @@ section {
     margin: 80px auto;
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 60px;
     text-align: center;
 }
 
@@ -148,6 +148,8 @@ section {
     display: block;
     justify-content: center;
     text-align: center;
+    width: 1150px;
+    height: 350px;
 }
 
 .my-plan-item h3 {
