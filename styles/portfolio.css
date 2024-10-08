@@ -234,7 +234,7 @@ footer {
 .footer-column {
     width: 50%;
     display: block;
-    justify-content: space-between;
+    align-items: center;
     padding: 50px 100px;
 
 }
@@ -287,9 +287,9 @@ footer {
     width: 60%;
     margin-bottom: 12px;
     background: transparent;
-    /* added */
+    
     border: 1px solid #fafafa;
-    /* added */
+    
     border-radius: 5px;
     color: #FFFFFF;
 
