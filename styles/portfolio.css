@@ -234,6 +234,7 @@ footer {
 .footer-column {
     width: 50%;
     display: block;
+    justify-content: center;
     align-items: center;
     padding: 50px 100px;
 
@@ -286,13 +287,12 @@ footer {
     padding: 16px;
     width: 60%;
     margin-bottom: 12px;
-    background: transparent;
+    background: black;
     
     border: 1px solid #fafafa;
     
     border-radius: 5px;
     color: #FFFFFF;
-
 
 
 }
